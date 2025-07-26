@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   web:
-    image: your-dockerhub-username/nginx-custom:latest
+    image: Revin-web/nginx-custom:latest
     ports:
       - "80:80"
     volumes:
